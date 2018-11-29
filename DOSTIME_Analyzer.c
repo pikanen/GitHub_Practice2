@@ -159,6 +159,9 @@ unsigned int extract_hex(const char *src)
 
     val = strtol(hex_high, NULL, 16) << 16;
     val += strtol(hex_low, NULL, 16);
-
+    include<time.h> 
+    define LEN 30
+    define WID 25
+int Snake[LEN][WID] = {0}; 
 	return val;
 }
