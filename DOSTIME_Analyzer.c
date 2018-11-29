@@ -159,6 +159,5 @@ unsigned int extract_hex(const char *src)
 
     val = strtol(hex_high, NULL, 16) << 16;
     val += strtol(hex_low, NULL, 16);
-
 	return val;
 }
